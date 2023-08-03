@@ -41,7 +41,7 @@ function sendMail() {
 
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
-        message: document.getElementById("subject")
+        message: document.getElementById("subject").value
     }
 
     const serviceID = "service_iqymb6e";
