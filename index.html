@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andrew Festa</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="main.css">
+
+    <script src="https://kit.fontawesome.com/63bd6b6839.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("cLB4qf1zDwS0uLSoH");
+        })();
+    </script>
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+
+        <nav class="top-nav">
+
+            <ul class="nav-list">
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li>
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <div class="landing-text">
+            <h1>Andrew Festa</h1>
+            <h6>Web Developer, Programmer, and Computer Technician</h6>
+        </div>
+
+    </header>
+
+    <!-- About -->
+    <section class="about" id="about">
+
+        <div class="container">
+             
+            <div class="profile-img" data-aos="fade-right" data-aos-dealy="300">
+                <img src="images/profile.jpg" alt="">
+            </div>
+
+            <div class="about-details" data-aos="fade-left" data-aos-dealy="600">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Me</h6>
+                </div>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Esse dolorem architecto magni inventore at facilis error, porro corporis quas dignissimos?
+                </p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>My recent projects</h6>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-dealy="300">
+                    <img src="images/cec65baf-76c9-429e-a02c-a12d636f30b4.png" alt="">
+                </div>
+
+                <div class="portfolio-description" data-aos="fade-left" data-aos-dealy="600">
+                    <h6>Web Application</h6>
+                    <h1>Final Fee Calculator</h1>
+                    <p>A simple calculator to calculate the final fees and profit from various selling platforms.
+                        I used this project to familiarize myself with vanilla Javascript and basic CSS layouts. 
+                        The chart is generated using chart.js.
+                    </p>
+                    <a href="https://afesta12.github.io/FinalFeeCalculator/" class="cta">View Project</a>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-dealy="900">
+                    <h6>Web Development</h6>
+                    <h1>Room Landing Page</h1>
+                    <p>This is a project from Frontend Mentor. It gave me the opportunity to work with various
+                        layouts, build an image carousel and to really focus on mobile first development patterns.
+                    </p>
+                    <a href="https://afesta12.github.io/RoomLandingPage/" class="cta">View Project</a>
+                </div>
+
+                <div class="portfolio-img" data-aos="fade-left" data-aos-dealy="1200">
+                    <img src="images/landingPage.png" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-dealy="1500">
+                    <img src="images/096c8b80-3f8b-4ea2-81dd-17bb2c85cbdb.png" alt="">
+                </div>
+
+                <div class="portfolio-description" data-aos="fade-left" data-aos-dealy="1800">
+                    <h6>Web Application</h6>
+                    <h1>Sorting Visualization</h1>
+                    <p>I got this idea from the Coding Train on YouTube, and I used this project to better understand
+                        various sorting algorithms. I used the p5.js library for the majority of the project, and 
+                        as I learn more sorting algorithms, I will update this project accordingly.
+                    </p>
+                    <a href="https://afesta12.github.io/SortingVisualization/" class="cta">View Project</a>
+                </div>
+            </div>
+             
+        </div>
+
+    </section>
+
+    <!-- Experience -->
+    <section class="experience" id="experience">
+
+        <div class="container">
+            <div class="section-heading">
+                <h1>Work Experience</h1>
+                <h6>Past and current work experience and education</h6>
+            </div>
+
+            <div class="timeline" data-aos="fade-down" data-aos-dealy="300">
+                <ul>
+                    <li class="date" data-date="2023 - Present">
+                        <h1>Accurate IT</h1>
+                        <p>
+                            As a computer technician at Accurate IT, I am responsible for electronic refurbishment for resale, data destruction and safe recycling.
+                        </p>
+                    </li>
+                    <li class="date" data-date="2021 - Present">
+                        <h1>The Ohio State University - Bachelor's Of Computer Science</h1>
+                        <p>
+                            I am currently pursuing my Bachelor's of Computer Science with a specialization in Software Engineering.
+                        </p>
+                    </li>
+                    <li class="date" data-date="2018 - 2020">
+                        <h1>Columbus State Community College - Associate's Of Computer Science</h1>
+                        <p>
+                            Recieved my Associate's of Computer Science and graduated with Cum Laude honors from CSCC.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+        <div class="container">
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Let's connect</h6>
+            </div>
+        </div>
+
+        <form action="" data-aos="fade-up" data-aos-dealy="300">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your e-mail..." required>
+
+            <label for="subject">Message:</label>
+            <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+
+            <input type="submit" value="Submit" onclick="sendMail()">
+            
+        </form>
+    </section>    
+    
+    <footer class="copyright">
+        <div class="up" id="up">
+            <i class="fas fa-chevron-up"></i>
+        </div>
+        <p>&copy; 2023 Andrew Festa</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+</body>
+</html>
